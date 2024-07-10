@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Bhovar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link data-th-href="@{/css/main.css?{id}(id=${timestamp})}" rel="stylesheet">
+</head>
+
+<body>
+    <h1 th:text="${name}">Default name</h1>
+    <h1 th:text="${title}">Default title.</h1>
+    <p th:text="${msg}">Default text.</p>
+</body>
+
+
+
+</html>
