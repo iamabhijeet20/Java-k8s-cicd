@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: echo2000/java-cicd::replaceImageTag
+        image: echo2000/java-cicd::16
         ports:
         - containerPort: 8080
